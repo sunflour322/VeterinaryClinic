@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="66f1f07e9b6b4a1c8bcf57cf54486b06" Name="Diagram1">
+        <EntityTypeShape EntityType="VeterinaryClinicMukachevModel.Clients" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinaryClinicMukachevModel.Employees" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinaryClinicMukachevModel.Pet_Types" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinaryClinicMukachevModel.Pets" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinaryClinicMukachevModel.Positions" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinaryClinicMukachevModel.Record" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeterinaryClinicMukachevModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="VeterinaryClinicMukachevModel.FK__Pets__client_id__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinaryClinicMukachevModel.FK__Employees__posit__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinaryClinicMukachevModel.FK__Record__employee__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinaryClinicMukachevModel.FK__Pets__pet_type_i__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="VeterinaryClinicMukachevModel.FK__Record__pet_id__31EC6D26" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
